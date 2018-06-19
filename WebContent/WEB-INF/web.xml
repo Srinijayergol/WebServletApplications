@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HTML_Example_Form_application</display-name>
+  <welcome-file-list>
+    <welcome-file>html/index.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PersonInfoServlet</display-name>
+    <servlet-name>PersonInfoServlet</servlet-name>
+    <servlet-class>com.web.Servlet.PersonInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonInfoServlet</servlet-name>
+    <url-pattern>/PersonInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContactInfoServlet</display-name>
+    <servlet-name>ContactInfoServlet</servlet-name>
+    <servlet-class>com.web.Servlet.ContactInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactInfoServlet</servlet-name>
+    <url-pattern>/ContactInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BankInfoServlet</display-name>
+    <servlet-name>BankInfoServlet</servlet-name>
+    <servlet-class>com.web.Servlet.BankInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BankInfoServlet</servlet-name>
+    <url-pattern>/BankInfoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

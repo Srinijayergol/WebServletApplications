@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bank Information</title>
+</head>
+<body bgcolor="pink">
+	<center>
+		<table>
+			<h1>Enter bank details</h1>
+
+			<form method="post"
+				action="/HTML_Example_Form_application/PersonInfoServlet">
+
+				<tr>
+					<td><label for="adress">Bank Name : </label></td>
+					<td><select name="bankName">
+					   <option value="BOFA">BOFA</option>
+                        <option value="Wells Fargo">Wells Fargo</option>
+                        <option value="Citi">Citi</option>
+                        <option value="Chase">Chase</option>
+					</select></td>
+				</tr>
+				<br>
+				<tr>
+					<td><label for="adress">Account # :</label></td>
+					<td><input type="text" name="account" id="account"></td>
+				</tr>
+				<br>
+				<tr>
+					<td><label for="adress">Social Security Number(SSN):</label></td>
+					<td><input type="text" name="ssn" id="ssn"></td>
+				</tr>
+				<br>
+			
+				
+				<tr>
+				
+				    <td><input type= "reset" value="Reset" style="text-align: center; height: 45px; width: 100px">
+					<input type="submit" value="Submit" style="text-align: center;;height: 45px; width: 100px"></td>
+				
+				</tr>
+				
+				<br>
+		</table>
+		</form>
+	</center>
+</body>
+</html>
